@@ -1,9 +1,8 @@
 # linux-troubleshooting
 
 ### How to fix busybox Initramfs Error on Ubuntu or Linux.
-Ubuntu Linux ´Ubuntu 20.04 LTS´. You can try using another version.
+Ubuntu Linux `Ubuntu 20.04 LTS`. You can try using another version.
 
-<pre></pre>
 <pre>(initramfs) exit</pre>
 
 the root filesystem on `/dev/sda1` requires a manual. <br/>
