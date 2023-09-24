@@ -14,3 +14,19 @@ As you can see in the above output, the `/dev/sda1` (your/partition/name) partit
 Now, type `reboot` and hit `ENTER` to restart your system!
 
 if the reboot command doesn´t work, type `exit` and hit `ENTER`.
+
+### Hardware tips
+Command to see the computer serial number.
+```sh
+sudo dmidecode -t system | grep Serial
+```
+
+### Things you shoud know affer change your processor:
+- Processor model
+- Matherboard
+- Soquete
+- Thermal Design Power(TDP) `warning: Your TDP(potence) have to be equal than your TDP processor`
+  You are going to find your Processor model here in this website.
+  <a href="https://www.cpu-upgrade.com/CPUs/Intel/Core_i5_Mobile/i5-4300U.html"> CPU Upgrate.<a/>
+
+
