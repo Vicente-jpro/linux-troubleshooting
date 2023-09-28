@@ -29,4 +29,11 @@ sudo dmidecode -t system | grep Serial
   You are going to find your Processor model here in this website.
   <a href="https://www.cpu-upgrade.com/CPUs/Intel/Core_i5_Mobile/i5-4300U.html"> CPU Upgrate.<a/>
 
+  ### Create installer usb
+```sh
+  sudo dd if=image_name.bin of=/dev/sdN bs=4M status=progress
+```
+`image_name.bin`: nome do arquivo do instalador salvo
+`/dev/sdN`: o drive USB
+
 
