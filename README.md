@@ -33,7 +33,7 @@ sudo dmidecode -t system | grep Serial
 ```sh
   sudo dd if=image_name.bin of=/dev/sdN bs=4M status=progress
 ```
-`image_name.bin`: nome do arquivo do instalador salvo
+`image_name.bin`: nome do arquivo do instalador salvo <br>
 `/dev/sdN`: o drive USB
 
 
