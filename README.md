@@ -36,4 +36,8 @@ sudo dmidecode -t system | grep Serial
 `image_name.bin`: nome do arquivo do instalador salvo <br>
 `/dev/sdN`: o drive USB
 
+### Check my RAM memory in linux
+```sh
+sudo dmidecode --type 17
+```
 
