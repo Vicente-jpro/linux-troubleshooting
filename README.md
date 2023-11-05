@@ -41,3 +41,10 @@ sudo dmidecode -t system | grep Serial
 sudo dmidecode --type 17
 ```
 
+### Search file in linux
+Run the command `sudo find / -name *.rdb` <br>
+`.rdb` is file extension
+
+```sh
+sudo find / -name *.rdb
+```
