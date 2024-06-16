@@ -53,28 +53,6 @@ sudo find / -name *.rdb
 
 Creating environment variables on a Linux system can be done in several ways, depending on whether you want the variable to be temporary (for the current session) or persistent (across reboots and sessions). Here are the steps for both scenarios:
 
-### Temporary Environment Variables
-
-These variables are set for the current session and will be lost once the session ends.
-
-1. **Set a temporary environment variable:**
-   ```sh
-   export VARIABLE_NAME=value
-   ```
-   Example:
-   ```sh
-   export MY_VAR="Hello World"
-   ```
-
-2. **Check if the variable is set:**
-   ```sh
-   echo $VARIABLE_NAME
-   ```
-   Example:
-   ```sh
-   echo $MY_VAR
-   ```
-
 ### Persistent Environment Variables
 
 These variables are set in configuration files and will persist across sessions and reboots.
