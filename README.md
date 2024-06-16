@@ -49,6 +49,7 @@ Run the command `sudo find / -name *.rdb` <br>
 sudo find / -name *.rdb
 ```
 
+# Environment Variables on a Linux
 
 Creating environment variables on a Linux system can be done in several ways, depending on whether you want the variable to be temporary (for the current session) or persistent (across reboots and sessions). Here are the steps for both scenarios:
 
